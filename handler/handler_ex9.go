@@ -11,7 +11,7 @@ import (
 
 type User struct {
 	UserId 	int 	`json:"userId"`
-	Id 		int		`json:"id"`
+	Id 	int	`json:"id"`
 	Title 	string	`json:"title"`
 	Body 	string	`json:"body"`
 }
